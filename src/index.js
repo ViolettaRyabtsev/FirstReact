@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Player from './video';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Player />
   </React.StrictMode>,
   document.getElementById('root')
 );
