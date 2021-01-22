@@ -5,8 +5,9 @@ function App() {
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
-
-
+      <div >
+        <img src='https://scitechdaily.com/wp-content/uploads/sites/1/nggallery/amazing-science-photos-capture-world-in-different-light/Beautiful-Images-from-a-Microscope.jpg ' width="300" height="300" className='Main' alt="Main" />
+      </div>
       <a
         className="App-link"
         href="https://www.youtube.com/"
