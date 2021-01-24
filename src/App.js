@@ -1,12 +1,12 @@
-import logo from '/Users/wonderviolet/FirstReact/my-app/src/Youtube-logo-PNG-Image.png';
+import React from 'react'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
+      {/* <img src={logo} className="App-logo" alt="logo" /> */}
       <div >
-        <img src='https://scitechdaily.com/wp-content/uploads/sites/1/nggallery/amazing-science-photos-capture-world-in-different-light/Beautiful-Images-from-a-Microscope.jpg ' width="300" height="300" className='Main' alt="Main" />
+        <img src='https://scitechdaily.com/wp-content/uploads/sites/1/nggallery/amazing-science-photos-capture-world-in-different-light/Beautiful-Images-from-a-Microscope.jpg ' width="700" height="300" className='Main' alt="Main" />
       </div>
       <a
         className="App-link"

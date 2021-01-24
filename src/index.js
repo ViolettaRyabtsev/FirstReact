@@ -6,12 +6,16 @@ import reportWebVitals from './reportWebVitals';
 
 import './video.css'
 import Video from './video.js'
+import Search from './Search'
+
+
 ReactDOM.render(
   <React.StrictMode>
+    <Search />
     <App />
-    <div>here </div>
 
     <Video />
+
   </React.StrictMode>,
   document.getElementById('root')
 );

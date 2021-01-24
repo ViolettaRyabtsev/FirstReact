@@ -40,3 +40,36 @@
   
 }
  
+.search-param{
+display: block;
+
+}
+
+.search-emotions{
+color: rgb(3, 3, 3);
+display: block;
+
+}
+
+#comment{
+border: solid ;
+
+}
+
+.button{
+display: block;
+background-color: chartreuse;
+border: solid;
+margin: 10px;
+margin-left: auto;
+margin-right: auto;
+height: 50px;
+}
+
+#button-size{
+text-align: center;
+  width: 700px;
+  height: 100px;
+  text-align: left;
+  
+}
