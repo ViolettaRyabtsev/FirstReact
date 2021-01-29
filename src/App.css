@@ -1,6 +1,9 @@
 .App {
-  text-align: center;
 
+ background-color: rgb(183, 183, 228);
+ height: 100px;
+display: grid;
+font-size: 10px;
 }
 .App-logo {
   height: 40vmin;
@@ -24,31 +27,25 @@
   color: white;
 }
 
-.App-link {
-  color: #f00000;
-  font-size: 20px;
-  
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-  
-}
+
+
  
 .search-param{
 display: block;
+height: 100px;
+justify-content: space-evenly;
+display: grid;
 
 }
 
 .search-emotions{
 color: rgb(3, 3, 3);
 display: block;
-
+height: 30px;
+font-size: 20px;
+margin-right: 1000px;
+width: 200px;
 }
 
 #comment{
@@ -58,18 +55,34 @@ border: solid ;
 
 .button{
 display: block;
-background-color: chartreuse;
+background-color: rgb(241, 247, 235);
 border: solid;
 margin: 10px;
 margin-left: auto;
 margin-right: auto;
 height: 50px;
-}
 
+}
+.button2{
+display: inline;;
+margin-left: 960px;
+margin-bottom: 15px;
+
+}
 #button-size{
 text-align: center;
   width: 700px;
   height: 100px;
   text-align: left;
   
+}
+
+
+.main-text{
+background-color: white;
+height: 400px;
+width: 80%;
+border: solid;
+margin-left: auto;
+margin-right: auto;
 }

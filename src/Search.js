@@ -13,7 +13,6 @@ const Search = () => {
                 Moood and Emotions
                     <select
                     className='search-emotions'
-
                     value={feel}
                     onChange={event => setOptions(event.target.value)}
                     onBlur={event => setOptions(event.target.value)} >

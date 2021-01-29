@@ -1,20 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import AddText from './text'
 import './video.css'
-import Video from './video.js'
+import LeaveTheComment from './Comment'
 import Search from './Search'
+import Welcome from './video.js';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Search />
-    <App />
+    <Router>
+      <App
+      />
+      {/* <Switch>
+        <Route exact path="/" component={App} />
+        
+      </Switch> */}
+    </Router>
 
-    <Video />
+    <Search />
+    <AddText />
+    <LeaveTheComment />
+    <Welcome />
 
   </React.StrictMode>,
   document.getElementById('root')
