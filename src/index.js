@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -11,17 +9,17 @@ import './video.css'
 import LeaveTheComment from './Comment'
 import Search from './Search'
 import Welcome from './video.js';
+import { Router } from '@reach/router';
+import RenderLove from './love'
 
-
+// import RenderLove from './love'
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <App
-      />
-      {/* <Switch>
-        <Route exact path="/" component={App} />
-        
-      </Switch> */}
+
+      <App path='/' />
+      <RenderLove path='/love' />
+
     </Router>
 
     <Search />
